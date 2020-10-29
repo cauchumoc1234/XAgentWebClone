@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/customer.css">
+    <title>X-Agent | The best for you</title>
+</head>
+<body>
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col-lg-3 col-md-12 col-9  logo">
+                <a href="./home.html">
+                    <img src="./image//Logo_head.png" alt="brand">
+                </a>
+            </div>
+            <div class="col-lg-7 col-md-9 col-2 menu-row">
+                <div class="item navbtn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="main">
+                    <div class="item drop">
+                        <a href="#">CLOTHING</a>
+                        <ul class="drop-menu">
+                            <li><a href="">Jackets</a></li>
+                            <li><a href="">Pants</a></li>
+                            <li><a href="">Shirts</a></li>
+                            <li><a href="">Jeans</a></li>
+                        </ul>
+                    </div>
+                    <div class="item drop">
+                        <a href="#">SHOES</a>
+                        <ul class="drop-menu">
+                            <li><a href="">Work</a></li>
+                            <li><a href="">Sandals</a></li>
+                            <li><a href="">Boots</a></li>
+                            <li><a href="">Running</a></li>
+                        </ul>
+                    </div>
+                    <div class="item drop">
+                        <a href="#">ACCESSORIES</a>
+                        <ul class="drop-menu">
+                            <li><a href="">Hats</a></li>
+                            <li><a href="">Mini Bags</a></li>
+                            <li><a href="">Watch</a></li>
+       
+                        </ul>
+                    </div>
+                    <div class="item drop">
+                        <a href="#">BRANDS</a>
+                        <ul class="drop-menu">
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">Adidas</a></li>
+                            <li><a href="">Timberland</a></li>
+                            <li><a href="">Puma</a></li>
+                            <li><a href="">Converse</a></li>
+                            <li><a href="">Skechers</a></li>
+                        </ul>
+                    </div>
+                    <div class="item saleoff">
+                        <a href="#" class="item">SALE OFF !</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-2 col-md-3 col-12 widget-container" style="position: relative;">
+                <a href="#" id="search-btn"><i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+                <form id="search-box">
+                    <input type="text">
+                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                <a href="./customer.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </header> 
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn"  onclick="register()">Register</button>
+            </div>
+            <div class="social-icon">
+                <img src="./image/social/fb.png" alt="">
+                <img src="./image/social/tw.png" alt="">
+                <img src="./image/social/lk.png" alt="">
+            </div>
+            <form id="login" action="" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" name="" class="checkbox"><span>Remember Password</span>
+                <button class="submit-btn">Login</button>
+            </form>
+            <form id="register" action="" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" name="" class="checkbox"><span>I agree to ther term & conditions</span>
+                <button class="submit-btn">Register</button>
+            </form>
+        </div>
+        
+    </div>
+    <footer>
+        
+        <div class="col-12 col-lg-3 col-sm-4 topic">
+            <h2>CATEGORIES</h2>
+            <a href="#">For Men</a>
+            <a href="#">For Women</a>
+            <a href="#">Accessories</a>
+            <a href="#">Other</a>
+        </div>
+        <div class="col-12 col-lg-3 col-sm-4 topic">
+            <h2>ACCOUNT</h2>
+            <a href="#">Wishlist</a>
+            <a href="#">Compare</a>
+            <a href="#">Subcribe</a>
+            <a href="#">Login</a>
+        </div>
+        <div class="col-12 col-lg-3 col-sm-4 topic">
+            <h2>QUICK LINKS</h2>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Vacancies</a>
+        </div>
+        <div class="col-12 col-lg-3 col-sm-4 topic">
+            <h2>CONTACT</h2>
+            <a href="">Address: 1 Pham Van Dong, Cau Giay, Ha Noi</a>
+            <a href=""><i class="fa fa-phone-square" aria-hidden="true"></i> 033.522.9871</a>
+            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a>
+            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+    </footer>
+    <script src="./js/navbar.js"></script>
+    <script>
+        var x= document.getElementById("login");
+        var y= document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0px"
+        }
+    </script>
+    
+</body>
+</html>
